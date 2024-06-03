@@ -4,4 +4,4 @@ Paper:
 ## Overview: 
 
 PyTorch implementation of DGNR.
-![contents](./image/main.jpg)
+![contents](./images/main.jpg)
