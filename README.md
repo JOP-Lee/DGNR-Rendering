@@ -17,6 +17,16 @@ Download the data from the official websites of KITTI, Waymo, Argo, Cityscape, o
 
 
 ## Train
+Density-Guided Scene Representation
+```bash
+ns-process-data metashape --data xx/kitti11/images --xml xx/kitti11/camera.xml --output-dir xx  
+python scripts/divideTransform.py
+ns-train nerfacto --data xx --timestamp  kitti11_block_200
+ns-export pointcloud --load-config outputs/kitti11/nerfacto/kitti11_block_200/config.yml --output-dir  outputs/kitti11/nerfacto/kitti11_block_200/
+python scripts/scale_pointcloud.py
+python scripts/pointcloudCat.py
+```
+Density-Guided Differentiable Rendering
 ```bash
 python train.py --config configs/train_example.yaml --pipeline READ.pipelines.ogl.TexturePipeline --crop_size 256x256
 ```
