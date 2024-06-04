@@ -1,6 +1,5 @@
 # DGNR: Density-Guided Neural Point Rendering of Large Driving Scenes
-Paper:
-
+ [Paper](https://arxiv.org/abs/2311.16664)  
 ## Overview: 
 
 PyTorch implementation of DGNR.
