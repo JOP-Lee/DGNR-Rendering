@@ -58,7 +58,7 @@ In this code we refer to the following implementations: [nerfstudio](https://git
 ## Citation
 If our work or code helps you, please consider to cite our paper. Thank you!
 ```BibTeX
-@article{li2023dgnr,
+@article{li2024dgnr,
   title={DGNR: Density-Guided Neural Point Rendering of Large Driving Scenes},
   author={Li, Zhuopeng and Wu, Chenming and Zhang, Liangjun and Zhu, Jianke},
   journal={IEEE Transactions on Automation Science and Engineering},
