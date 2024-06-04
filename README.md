@@ -62,7 +62,7 @@ If our work or code helps you, please consider to cite our paper. Thank you!
   title={DGNR: Density-Guided Neural Point Rendering of Large Driving Scenes},
   author={Li, Zhuopeng and Wu, Chenming and Zhang, Liangjun and Zhu, Jianke},
   journal={IEEE Transactions on Automation Science and Engineering},
-  year={2023},
+  year={2024},
   publisher={IEEE}
 }
 
