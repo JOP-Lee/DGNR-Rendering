@@ -1,0 +1,7 @@
+viewport_size: [1216, 368]
+intrinsic_matrix: Data/kitti11_368_total/camera.xml
+view_matrix:  Data/kitti11_368_total/camera.xml
+pointcloud:  Data/kitti11_368_total/pointcloud.ply
+
+net_ckpt:  UNet_stage_0_epoch_89_net.pth
+texture_ckpt: PointTexture_stage_0_epoch_89_scene.pth
