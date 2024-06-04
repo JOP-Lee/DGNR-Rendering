@@ -11,6 +11,10 @@ PyTorch implementation of DGNR.
 -->
 The following instructions describe installation of conda environment.  Please refer to [requirement](https://github.com/JOP-Lee/DGNR-Rendering/blob/main/requirement.sh).
 .
+## Data
+Download the data from the official websites of KITTI, Waymo, Argo, Cityscape, or you can try the examples provided by us [here](https://zenodo.org/records/11424867) and unpack in the Data directory.
+
+
 
 ## Train
 ```bash
