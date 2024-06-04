@@ -51,3 +51,19 @@ python viewer.py --config downloads/kitti11.yaml
 ```bash
 python viewer_numpy.py --config downloads/kitti11.yaml
 ```
+## Acknowledgments
+In this code we refer to the following implementations: [nerfstudio](https://github.com/nerfstudio-project/nerfstudio) and [READ](https://github.com/JOP-Lee/READ). Great thanks to them! 
+
+
+## Citation
+If our work or code helps you, please consider to cite our paper. Thank you!
+```BibTeX
+@article{li2023dgnr,
+  title={DGNR: Density-Guided Neural Point Rendering of Large Driving Scenes},
+  author={Li, Zhuopeng and Wu, Chenming and Zhang, Liangjun and Zhu, Jianke},
+  journal={IEEE Transactions on Automation Science and Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+
+```
